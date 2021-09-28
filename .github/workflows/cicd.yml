@@ -23,7 +23,7 @@ jobs:
           pytest
 
   codecoverage:
-    runs-on: ubuntu-latest # choose the OS for running the action
+    runs-on: windows-latest # choose the OS for running the action
     strategy:
       matrix: 
         os: [ubuntu-latest, windows-latest]
