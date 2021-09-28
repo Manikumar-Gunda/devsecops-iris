@@ -6,7 +6,7 @@ on: push
 jobs:
   # first job to test the application using pytest
   unittest:
-    runs-on: windows-latest # choose the OS for running the action
+    runs-on: ubuntu-latest # choose the OS for running the action
     # define the individual sequential steps to be run
     steps:
       - name: Checkout the repository
